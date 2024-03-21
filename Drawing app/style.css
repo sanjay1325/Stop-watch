@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+canvas{
+    background-color:white;
+    border: 2px solid rgb(5, 136, 180);
+
+}
+.toolBox {
+    padding: 10px;
+    
+    width: 504px;
+    background-color: rgb(85, 172, 201);
+}
+.toolBox button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color{
+    width: 26px;
+    height: 21px;
+    border: none;
+    margin-left: 155px;
+
+
+}
+#delete{
+    margin-left:200px;
+}
+

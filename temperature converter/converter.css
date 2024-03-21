@@ -1,0 +1,37 @@
+form{
+    text-align: center;
+    background-color: hsl(33, 71%, 95%);
+    max-width: 350px;
+    margin: auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 10px ;
+    border-color: black;
+    box-shadow: 0px 0px 25px  black;
+}
+#input{
+    text-align: center;
+    font-size: large;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#sbt{
+    background-color: hsl(0, 75%, 58%);
+    color: aliceblue;
+    border: none;
+    padding:5px 5px 7px 7px ;
+    border-radius:5px;
+    cursor: pointer;
+}
+#sbt:hover{
+    background-color: aliceblue;
+    color: hsl(0, 75%, 58%);
+    border:10px black;
+    
+}
+p{
+    font-weight: bold;
+    font-family: sans-serif;
+} 

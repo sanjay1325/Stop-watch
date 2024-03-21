@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>password generator</title>   
+     <link rel="stylesheet" href="p-g.css">   
+    </head>
+    
+
+    <body>
+      <div class="container">
+      <div class="header">
+        <span class="span"></span>
+        <button class="copybt">📝</button>
+      </div>
+      <div class="details">
+
+        <div class="rules">
+          <label for="length">Password length:</label>
+          <input type="number" class="length" id="length" value="5" min="2" max="15">
+        </div>
+        <div class="rules">
+          <label for="lower">Include LowerCase</label>
+          <input type="checkbox" class="lower" id="lower">
+        </div>
+        <div class="rules">
+          <label for="upper">Include UpperCase</label>
+          <input type="checkbox"  class="upper" id="upper">
+        </div>
+        <div class="rules">
+          <label for="numbers">Include numbers</label>
+          <input type="checkbox" class="numbers" id="numbers">
+        </div>
+        <div class="rules">
+          <label for="char">Include Characters</label>
+          <input type="checkbox" class="char"  id="char">
+        </div>
+      </div>
+      <button class="generatebt">Generate </button>
+
+      </div>
+      
+      <script src="p-g.js"></script>
+    </body>
+</html>
